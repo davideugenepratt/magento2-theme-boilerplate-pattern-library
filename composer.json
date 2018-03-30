@@ -1,0 +1,8 @@
+{
+  "name": "davideugenepratt/magento2-theme-boilerplate-pattern-library",
+  "description": "A boilerplate pattern library for a Magento2 theme.",
+  "version" : "v0.1.0",
+  "require": {
+    "php": "^5.3.3 || ^7.0"
+  }
+}
