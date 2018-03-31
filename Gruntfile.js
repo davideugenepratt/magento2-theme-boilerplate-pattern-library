@@ -14,8 +14,11 @@ module.exports = function(grunt) {
         watch: {
             files: ['**/*.scss'],
             tasks: ['sass']
+        },
+        exec: {
+            generate: 'php pattern-library/core/console --generate'
         }
     });
-    grunt.registerTask('default', ['sass']);
+    grunt.registerTask( 'default' , [ 'sass' , 'exec:generate' ] );
 
 };

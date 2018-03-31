@@ -1,5 +1,5 @@
 {
-  "name": "php-pattern-library",
+  "name": "magento2-theme-boilerplate-pattern-library",
   "version": "0.1.0",
   "description": "A boilerplate pattern library that can be used for Magento and WordPress sites. Includes Magento2 and WordPress support.",
   "main": "index.js",
@@ -19,7 +19,11 @@
   "devDependencies": {
     "grunt": "^1.0.2",
     "grunt-contrib-watch": "^1.0.0",
+    "grunt-exec": "^3.0.0",
     "grunt-sass": "^2.1.0",
     "load-grunt-tasks": "^3.5.2"
+  },
+  "dependencies": {
+    "grunt-cli": "^1.2.0"
   }
 }

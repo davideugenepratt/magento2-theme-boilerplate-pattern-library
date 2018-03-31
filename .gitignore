@@ -1,3 +1,6 @@
+**/vendor
+!magento2/vendor
+**/.*
+!.gitignore
 **/*.log
-.vagrant
-.idea
+**/node_modules
